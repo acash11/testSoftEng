@@ -9,6 +9,8 @@ jobs:
   unit_testing:
     runs-on: ubuntu-latest
     steps:
+      - name: Get code
+        uses: actions/checkout@v2
       - name: Test parser library
         run: |
           echo $ cd test
