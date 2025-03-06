@@ -11,6 +11,9 @@ jobs:
     steps:
       - name: Test parser library
         run: |
+          echo $ cd test
+          cd test
           echo $ node parser.js        
           node parser.js
+      
 
