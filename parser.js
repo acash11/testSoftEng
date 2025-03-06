@@ -1,3 +1,4 @@
 //test cases go here
 
-console.log(1)
+console.log("done.")
+return true
